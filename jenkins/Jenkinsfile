@@ -1,10 +1,10 @@
 pipeline {
-    agent {
+    /* agent {
         docker {
             image 'zenika/alpine-node:latest'
             args '-p 3000:3000'
         }
-    }
+    } */
     environment {
         CI = 'true'
     }
